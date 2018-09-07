@@ -65,5 +65,5 @@ var rtc = easyrtc.listen(app, socketServer, null, function(err, rtcRef) {
 
 //listen on port 8080
 webServer.listen(8080, function () {
-    console.log('listening on https://localhost:8080');
+    console.log('listening on demo-easyrtc.bitnamiapp.com:8080');
 });
